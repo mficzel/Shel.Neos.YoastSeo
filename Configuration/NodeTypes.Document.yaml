@@ -1,3 +1,11 @@
 'Neos.Neos:Document':
   superTypes:
     'Shel.Neos.YoastSeo:SeoMixin': true
+
+  ui:
+    inspector:
+      views:
+        yoastInfo:
+          label: i18n
+          group: 'nodeInfo'
+          view: 'Shel.Neos.YoastSeo/Inspector/Views/YoastInfoView'
